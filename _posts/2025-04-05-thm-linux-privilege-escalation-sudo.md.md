@@ -52,13 +52,13 @@ We can simply `cat /home/ubuntu/flag2.txt` to obtain our flag. No `sudo` needed!
 
 The next question requires a bit of research. *If* we had `sudo` access to `nmap`, how could we leverage this to obtain a `root` shell?
 
-Let's head over to [GTFOBins](https://gtfobins.github.io/) and see what being able to run `nmap` with `sudo` could give us!
+Let's head over to [GTFOBins](https://gtfobins.github.io/) and see what being able to run `nmap` with `sudo` could give us
 
-![[GTFOBins-nmap-search.png]]
+![namp-search](/assets/img/GTFOBins-nmap-search.png)
 
 Hmmm.... Shell? Sudo? Looks promising!
 
-![[GTFOBins-nmap-sudo.png]]
+![nmap-sudo](/assets/img/GTFOBins-nmap-sudo.png)
 
 So, looks like `sudo nmap --interactive` is enough to give us an interactive `root` shell.
 
@@ -66,7 +66,7 @@ So, looks like `sudo nmap --interactive` is enough to give us an interactive `ro
 
 Since we can run `sudo nano` we can simply open `/etc/shadow` and see the hash of Frank's password!
 
-![[nano-etc-shadow-linux-priv-esc.png]]
+![etc-shadow](/assets/img/nano-etc-shadow-linux-priv-esc.png)
 
 # `LD-PRELOAD`
 
