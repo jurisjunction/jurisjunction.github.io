@@ -68,7 +68,7 @@ Since we can run `sudo nano` we can simply open `/etc/shadow` and see the hash o
 
 ![etc-shadow](/assets/img/nano-etc-shadow-linux-priv-esc.png)
 
-# `LD-PRELOAD`
+# `LD_PRELOAD`
 
 If our `sudo -l` had found that `env_keep+=LD_PRELOAD` we could have leveraged this to get a root shell. On either the target or our attacking machine, we'd need to compile the following C source code  (`shell.c`):
 
