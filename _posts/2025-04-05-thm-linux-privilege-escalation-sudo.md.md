@@ -11,7 +11,7 @@ tags:
   - privesc
   - sudo
 cover-img: /assets/img/sudo-priv-esc.png
-thumbnail-img: /img/path/linux-priv-esc.png
+thumbnail-img: /assets/img/linux-priv-esc.png
 comments: true
 mathjax: true
 ---
