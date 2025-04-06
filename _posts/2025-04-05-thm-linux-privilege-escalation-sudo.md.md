@@ -1,10 +1,16 @@
 ---
 layout: post
-title: "THM Linux Privilege Escalation - sudo"
-subtitle: "Misusing sudo"
+title: THM Linux Privilege Escalation - sudo
+subtitle: Misusing sudo
 date: 2025-04-05
-tags: [pentest, tryhackme, redteam, linux, privesc, sudo]
-cover-img: ""
+tags:
+  - pentest
+  - tryhackme
+  - redteam
+  - linux
+  - privesc
+  - sudo
+cover-img: /assets/img/sudo-priv-esc.png
 thumbnail-img: /img/path/linux-priv-esc.png
 comments: true
 mathjax: true
