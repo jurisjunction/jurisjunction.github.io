@@ -9,7 +9,7 @@ tags:
   - priv-esc
   - linux
   - PATH
-cover-img: ""
+cover-img: /assets/img/lin-priv-esc/cover-path.png
 thumbnail-img: /assets/img/linux-priv-esc.png
 comments: true
 mathjax: true
